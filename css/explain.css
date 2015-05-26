@@ -1,0 +1,79 @@
+#top #menu{
+	list-style:none;	
+	position:absolute;
+	bottom:10px;
+	right:0px;
+	width:600px;
+}	
+#top #menu li{
+	float:left;
+	width:109px;
+	height:83px;
+	position:relative;
+	overflow:hidden;
+}
+#top #menu li a {
+	position:absolute;
+	top:20px;
+	text-indent:-999em;
+	background:#000033 url(../images/menu.png) no-repeat 0 0;
+	display:block; 
+	width:109px;
+	height:54px;
+	position:relative;
+	behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true));
+}
+#top #menu li.menu-1 a{
+  background:#000033 url(../images/menu-1.png) no-repeat 0 0;
+}
+#top #menu li.menu-2 a{
+  background:#000033 url(../images/menu-2.png) no-repeat 0 0;
+}
+#top #menu li.menu-3 a{
+  background:#000033 url(../images/menu-3.png) no-repeat 0 0;
+}
+#top #menu li.menu-5 a{
+  background:#000033 url(../images/menu-5.png) no-repeat 0 0;
+}
+#center{
+  width:960px;
+  margin-bottom:30px;
+  position:relative;
+}
+#center #title{
+  width:960px;
+  height:40px;
+  border-bottom:1px solid blue;
+  position:absolute;
+  top:0;
+  left:0;
+}
+#center #title p{
+  color:#000066;
+  font-family:"幼圆";
+  font-weight:bold;
+  font-size:18px;
+  margin-top:10px;
+}
+#center #content img{
+  width:150px;
+  height:120px;
+  float:left;
+  margin:60px 30px 20px 30px;
+}
+#center #content p{ 
+  text-indent:40px;
+  margin:10px 30px 0 30px;
+  color:#333;
+}
+#center #content h1{
+  color:#000066;
+  font-family:"幼圆";
+  font-weight:bold;
+  font-size:18px;
+  padding-top:60px; 
+}

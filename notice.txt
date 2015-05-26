@@ -1,0 +1,27 @@
+/**
+*    ziv 2013-1-4  yzq529@qq.com
+*/
+安装到服务器时需注意：
+1、upload文件夹用于存放用户上传的图片，请务必保证这个文件有读写权限；
+
+2、由于使用了unlink()函数删除图片，这个函数与平台相关，因此安装时应更改相应的路径。
+	需要更改的地方如下(将其更改为服务器下的绝对路径即可)：
+application/models/Madmin.php
+	img_resize();   //129行
+	change_img_ok(); //167行
+	delete_can();   //190行
+	delete_act();	//211行
+	
+
+
+3、本项目启用了php的php_gd2.dll扩展模块（用于图片压缩），因此部署时务必在php.ini中将其打开；
+	并且php的内存占用会增大，如果运行不了，请将php.ini中的memory_limit设置为12M(推荐)。
+	
+4、数据库的设置位于application/config/database.php中
+
+5、数据库文件：vote.sql
+
+6、后台的登录链接：{域名}/index.php/admin
+	用户名：ziv
+	密码:310.nhqn.com
+	登录后，可自行申请用户。

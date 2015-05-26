@@ -1,0 +1,236 @@
+*{
+  mardin:0;
+  padding:0;
+}
+body{
+	width:960px;
+	margin:0 auto;
+	background:url(../images/bg.gif) repeat-x;
+}
+#top{
+  width:960px;
+  height:220px;	
+  margin-bottom:10px;
+  position:relative;
+  background:url(../images/banner.png) no-repeat;
+}
+#top #link-to ul{
+  float:right;
+  margin-top:0px;
+  height:20px;
+}
+#top #link-to li{
+  float:right;
+  display:block;
+  margin-left:20px;
+  height:20px;
+  line-height:20px;
+}
+#top #link-to li a{
+  color:#999;
+  text-decoration:none;
+  font-size:12px;
+}
+#top #link-to li a:hover{
+  color:#fff;
+  text-decoration:none;
+}
+#top span.school{
+  color:white;
+  font-size:24px;
+  font-family:"幼圆";
+  font-weight:bold;
+  position:absolute;
+  left:0;
+  top:30px;
+}
+#top span.act{
+  color:white;
+  font-size:48px;
+  font-family:"幼圆";
+  font-weight:bold;
+  position:absolute;
+  left:150px;
+  top:55px;
+}
+#show-top{
+    height:26px;
+    width:960px;
+	border-bottom:1px solid blue;
+	margin-bottom:10px
+}
+#show-top p{
+	color:#000066;
+	font-family:"幼圆";
+	font-weight:bold;
+	font-size:20px;
+}
+.artist_l {
+	 width: 960px;
+	 position:relative;
+	 height:360PX;
+	 margin:0 auto;
+	 margin-bottom:10px;
+}
+.artist_l {
+	 width: 960px;
+	 position:relative;
+	 height:360PX;
+	 margin:0 auto;
+	 margin-bottom:10px;
+}
+.artist_l .a2 {
+	OVERFLOW:hidden;position:absolute; left:0; top:0; width:232px; height:232px;
+}
+.artist_l .a3 {
+	OVERFLOW: hidden;position:absolute; right:0px; top:0px; width:110px; height:110px;
+}
+.artist_l .a4 {
+	 OVERFLOW: hidden;position:absolute; right:0px;top:0px; width:110px; height:110px;
+}
+.artist_l .a5 {
+	OVERFLOW: hidden;position:absolute; left:262px; top:0px; width:110px; height:110px;
+}
+.artist_l .a6 {
+	 OVERFLOW: hidden;position:absolute; left:320px; bottom:0px; width:110px; height:110px;
+}
+.artist_l .a7 {
+	 OVERFLOW: hidden;position:absolute; right:150px; top:0px; width:110px; height:110px;
+}
+.artist_l .a8 {
+	OVERFLOW: hidden;position:absolute; left:400px; top:0px; width:110px; height:110px;
+}
+.artist_l .a9 {
+	OVERFLOW: hidden;position:absolute; right:252px; bottom:0px; width:232px; height:110px;
+}
+.artist_l .a10 {
+	OVERFLOW: hidden;position:absolute; left:550px; top:0px; width:110px; height:110px;
+}
+.artist_l .a11 {
+	OVERFLOW: hidden;position:absolute; left:570px; top:120px; width:110px; height:110px;
+}
+.artist_l .a12 {
+	OVERFLOW: hidden;position:absolute; right:0px; bottom:0px;width:232px; height:232px;
+}
+.artist_l .a13 {
+	OVERFLOW: hidden;position:absolute; left:0px; bottom:0px; width:110px; height:110px;
+}
+.artist_l .a14 {
+	OVERFLOW: hidden;position:absolute; left:160px; bottom:0px; width:110px; height:110px;
+}
+.artist_l .a15{
+	OVERFLOW: hidden;position:absolute; left:272px; top:120px; width:110px; height:110px;
+}
+.artist_l .a16{
+	OVERFLOW: hidden;position:absolute; left:422px; top:120px; width:110px; height:110px;
+}
+.artist_l .img110{width:110px; height:110px;}
+.artist_l .img232{width:232px; height:232px;}
+.artist_l .img110232{width:232px; height:110px;}
+.artist_l .a3 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a4 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a5 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a6 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a8 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a7 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a10 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a11 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a13 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a14 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a15 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a16 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 90px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l .a2 A {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 30px; FONT-SIZE: 18px; PADDING-BOTTOM: 15px; OVERFLOW: hidden; WIDTH: 182px; PADDING-TOP: 45px; HEIGHT: 172px
+}
+.artist_l .a12 A {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 30px; FONT-SIZE: 18px; PADDING-BOTTOM: 15px; OVERFLOW: hidden; WIDTH: 182px; PADDING-TOP: 45px; HEIGHT: 172px
+}
+.artist_l .a9 A {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-SIZE: 14px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 192px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.artist_l A {
+	BACKGROUND: #333; FILTER: alpha(opacity=90); LEFT: 0px; COLOR: #fff; FONT-FAMILY: 'Microsoft YaHei'; POSITION: absolute; TOP: 0px; opacity: .9
+}
+.artist_l A:hover {
+	COLOR: #fff
+}
+.artist_l A STRONG {
+	LINE-HEIGHT: 2em;
+}
+#footer{
+  width:960px;
+  height:46px;
+  border-top:3px solid #000066;
+  position:relative;
+}
+#footer ul{
+  float:left;
+  height:46px;
+  margin:0 0 0 0;
+}
+#footer ul li{
+  list-style-type:none;
+  margin-top:5px;
+  font-size:14px;
+  color:#666;
+}
+#footer ul li a {
+  font-size:14px;
+  color:#000066;
+  font-weight:bold;
+  font-family:"幼圆";
+  text-decoration:none;
+}
+#footer ul li a:hover{
+  color:#333;
+  text-decoration:none;
+}
+#footer img{
+  float:right;
+  width:313px;
+  height:46px;
+  position:absolute;
+  right:0;
+  bottom:0;
+}
+.backToTop {    
+  display: none;    
+  width: 50px; 
+  height: 50px;   
+  line-height: 1.2;    
+  padding: 5px 0;    
+  background:url(../images/top.png) no-repeat;    
+  color: #fff;    
+  font-size: 12px;    
+  text-align: center;    
+  position: fixed;    
+  _position: absolute;    
+  right: 10px;    
+  bottom: 80px;    
+  _bottom: "auto";    
+  cursor: pointer;
+ }

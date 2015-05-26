@@ -1,0 +1,71 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{ background:#eee;}
+.text , .textarea{ width:180px; height:24px; border:1px  solid #ccc;}
+.textarea:focus , .text:focus{ border:1px solid #396;}
+.button{ width:64px; height:28px; background:#396; border:1px solid #363; color:#fff; cursor:pointer;}
+
+
+/*登陆页面CSS*/
+.loginFace{width:400px; height:240px; margin:100px auto; border:1px solid #ccc; border-top:4px solid #093; background:#fff;}
+.loginFace h1{text-align:center; color:#363636; padding-top:10px;}
+.loginFace fieldset{ margin-top:20px; padding:20px; border:1px dashed #396;}
+.loginFace fieldset legend{ font-size:14px; color:#063;}
+.loginFace form {width:300px; margin:0 auto;}
+.loginFace form p{ margin-top:15px;}
+.loginFace form label,.loginFace form .text{ font-size:12px; color:#363636;}
+
+/*后台首页*/
+.admin_index{}
+.admin_index div{width:80%; margin:0 auto; margin-top:10px; border:1px solid #ccc; padding:10px 20px; font-size:12px;}
+.admin_index div p{padding:2px; line-height:16px;}
+.admin_index div.notice{color:#c33;}
+
+/*后台头部banner*/
+.admin_banner{width:100%; height:80px; background:#063; color:#fff;}
+.admin_banner h1{ padding:10px 0 0 10px; font-size:36px; font-family:微软雅黑; font-weight:normal; float:left;}
+.admin_banner p{float:right; padding-top:50px; padding-right:30px;}
+.admin_banner p a{ color:#fff;}
+.admin_banner p a:hover{ color:#eee;}
+
+/*后台左边导航*/
+.admin_nav{ width:14%; height:500px; background:#f7f7f7;}
+.admin_nav h1{height:30px; line-height:30px; padding-left:10px; border:1px solid #ccc;font-size:14px; color:#232323;}
+.admin_nav ul{ border-right:1px solid #ccc;}
+.admin_nav ul li{height:24px; line-height:24px; padding-left:20px; background:#fff;}
+.admin_nav ul li a{display:block; width:85%; height:24px; padding-left:15%; color:#363636; font-size:14px; background:#fff url(../css_image/process.gif) left center no-repeat;}
+.admin_nav ul li a.copy{ background:#fff url(../css_image/copy.gif) left center no-repeat;}
+.admin_nav ul li a.recycle{ background:#fff url(../css_image/reload.gif) left center no-repeat;}
+.admin_nav ul li a.reg{ background:#fff url(../css_image/agent.gif) left center no-repeat;}
+.admin_nav ul li a:hover{ color:#093;}
+
+
+/*后台右边内容*/
+.admin_content{ width:84%; height:500px; background:#fff; border-top:1px solid #999;}
+.admin_content h1{ height:28px; line-height:28px; padding-left:10px; font-size:14px; font-weight:normal; color:#063; background:#eee;}
+.admin_content h1 a{display:inline-block; width:60px; height:20px; line-height:20px; text-align:center; margin-left:50px; background:#ccc; color:#060; border:1px solid #060;}
+.admin_content h2{width:90%; height:28px; margin:0 auto; line-height:28px; padding-left:10px; font-size:14px; font-family:幼圆; color:#060; border-bottom:1px solid #090;}
+.tab{ padding:5px 10px; cursor:pointer;}
+.tabOn{border-bottom:2px solid #090;}
+
+/*表格*/
+table{width:96%; margin:10px auto; border:1px solid #ccc; }
+table thead{height:30px;}
+table thead tr th{ font-weight:bold; text-align:center; border:1px solid #ccc; background:#efe;}
+table tbody tr td{padding:5px; text-align:center; border:1px solid #ccc; font-size:13px; color:#454545;}
+table tbody tr td a{color:#093; padding:0 5px;}
+table tbody tr td a:hover{ text-decoration:underline; color:#063;}
+
+/*新增与编辑 表单css*/
+.edit{ width:900px; height:450px; padding:10px 20px;}
+.edit p{margin-top:10px;}
+.edit .text{ width:500px;}
+.edit .textarea{ width:800px; height:300px;}
+
+/*页脚版权*/
+.footer{ width:100%; height:50px; background:#f7f7f7; float:left;}
+.footer p{ padding-top:10px; text-align:center; font-size:12px; color:#666;}
+
+
+
+

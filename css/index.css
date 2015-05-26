@@ -1,0 +1,237 @@
+#top #menu{
+	list-style:none;	
+	position:absolute;
+	bottom:10px;
+	right:0px;
+	width:600px;
+}	
+#top #menu li{
+	float:left;
+	width:109px;
+	height:83px;
+	position:relative;
+	overflow:hidden;
+}
+#top #menu li a {
+	position:absolute;
+	top:20px;
+	text-indent:-999em;
+	background:#000033 url(../images/menu.png) no-repeat 0 0;
+	display:block; 
+	width:109px;
+	height:54px;
+	position:relative;
+	behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true));
+}
+#top #menu li.menu-1 a{
+  background:#000033 url(../images/menu-1.png) no-repeat 0 0;
+}
+#top #menu li.menu-2 a{
+  background:#000033 url(../images/menu-2.png) no-repeat 0 0;
+}
+#top #menu li.menu-3 a{
+  background:#000033 url(../images/menu-3.png) no-repeat 0 0;
+}
+#top #menu li.menu-4 a{
+  background:#000033 url(../images/menu-4.png) no-repeat 0 0;
+}
+#tab{
+	height:200px;
+	width:960px;
+	margin-bottom:10px;
+}
+#tab #TabCon1{
+	width:960px;
+	height:200px;
+}
+#tab #TabCon2{
+	width:960px;
+	height:200px;
+}
+#tab #TabCon1 p{
+	text-indent:20px;
+	margin:30px 30px 0 30px;
+	font-size:14px;
+}
+#tab #TabCon1 p a{
+   text-decoration:none;
+   color:#666;
+   font-size:16px;
+}
+#tab #TabCon1 p a:hover{
+   text-decoration:underline;
+   color:#666;
+}
+#tab #TabCon2 p{
+	text-indent:20px;
+	margin:30px 30px 0 30px;
+}
+#tab #TabCon2 p a{
+   text-decoration:none;
+   color:#666;
+   font-size:16px;
+}
+#tab #TabCon2 p a:hover{
+   text-decoration:underline;
+   color:#666;
+}
+#tab .xixi1{
+	width:960px;
+	height:30px;
+	line-height:29px;
+	background-image:url(../images/news_bghover1.png);
+	cursor:pointer;
+	border-bottom:1px solid #3333cc;
+	color:#000066;
+	font-family:"幼圆";
+	font-weight:bold;
+}
+#tab .xixi2{
+	width:960px;
+	height:30px;
+	line-height:30px;	
+	background-image:url(../images/news_bghover2.png);
+	cursor:pointer;
+	border-bottom:1px solid #3333cc;
+	color:blue;
+	font-family:"幼圆";
+	font-weight:bold;	
+}
+
+#tab .tab1{
+	width:480px;
+	height:30px;
+	float:left;
+	cursor:pointer;
+	text-align:center;
+	font-size:16px;
+}
+#tab .tab2{
+	width:480px;
+	height:30px;
+	float:left;
+	cursor:pointer;
+	text-align:center;
+	font-size:16px;
+}
+#title{
+  width:960px;
+  height:40px;
+  border-bottom:1px solid blue;
+}
+ #title p{
+  color:#000066;
+  font-family:"幼圆";
+  font-weight:bold;
+  font-size:18px;
+  margin-top:10px;
+  float:left;
+}
+ #title span{
+  float:right;
+  margin:10px 20px 0 0;
+  font-family:"幼圆";
+  color:red;
+}
+#select{
+ width:960px;
+ height:200px;
+ clear:both;
+}
+#select dl.show{
+  width:296px;
+  height:150px;	
+  border:1px solid #eee;
+  position:relative;
+  float:left;
+  margin:10px 0 0 13px;
+}
+#select dl.show dt{
+  width:296px;
+  height:55px;
+  background:url(../images/describe-top.png) no-repeat;
+  float:left;
+}
+#select dl.show dt h1{
+    margin:16px 0 0 15px;
+    color:#000066;
+	font-family:"幼圆";
+	font-weight:bold;
+	font-size:18px;
+}
+#select dl.show dt h1 span{
+  margin-left:15px;
+}
+#select dl.show dt h1 i{
+  margin-left:95px;
+  font-size:14px;
+}
+#select dl.show dd.image img{
+  width:120px;
+  height:86px;
+  position:absolute;
+  left:5px;
+  top:60px;
+}
+ #select dl.show dd.describe p{ 
+  font-size:12px;
+  text-indent:25px;
+  margin:0 0 0 95px; 
+  width:150px;
+}
+#select dl.show dd.describe p a{
+	color:#666;
+	text-decoration:none;
+	line-height:180%;
+}
+#select dl.show dd.describe p a:hover{
+	color:#666;
+	text-decoration:underline;
+}
+#votearea{
+  width:960px;
+  height:60px;
+  clear:both;
+}
+#votearea dl{
+  margin-left:60px;
+  padding-top:20px;
+}
+#votearea dl dd #pass{
+  float:left;
+  margin:3px 0 0 10px;
+}
+#votearea dl dd #pass-sno{
+  width:120px;
+  height:20px;
+  float:left;
+}
+#votearea dl dd #pass-no{
+  width:100px;
+  height:20px;
+  float:left;
+}
+#votearea dl dd #pass-in{
+  width:50px;
+  height:20px;
+  float:left;
+}
+#votearea dl dd #pass-get{
+  width:50px;
+  height:20px;
+  float:left;
+  margin-left:10px;
+}
+ #votearea dl #submit{
+  width:60px;
+  height:25px;
+  float:left;
+  color:#fff;
+  margin-left:50px;
+  background:#000066;
+  border:none;
+}

@@ -1,0 +1,9 @@
+#act_center{
+  width:960px;
+  margin-bottom:30px;
+  position:relative;
+}
+#act_center #content p.css{
+  font-size:16px;
+  color:#666;
+}
